@@ -1,0 +1,10 @@
+<!-- scripts -->
+{% for script in site.data.config.scripts %}
+	<script src="{{ script }}"></script>
+{% endfor %}
+
+<script src="{{ "/assets/js/theme.min.js" | relative_url }}"></script>
+<!-- / scripts -->
+
+</body>
+</html>
